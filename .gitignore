@@ -1,0 +1,15 @@
+# Ignore the hidden .terraform directory
+.terraform/
+
+# Ignore state files (VERY IMPORTANT)
+*.tfstate
+*.tfstate.backup
+
+# Ignore variable files that might contain secrets
+*.tfvars
+
+# Ignore crash logs
+crash.log
+
+# Ignore SSH keys (if you create them later)
+*.pem
